@@ -2,7 +2,7 @@
 1. Download and install Anaconda (https://www.anaconda.com/)
 2. Download and install GIT (https://git-scm.com/download/win)
 ## Create Local folder structures
-1. Create this folder path in a drive ``E:/Deforum/content``
+1. Create this folder path in a drive ``E:/Deforum/content`` (if not using ``E:`` drive, replace with the appropriate letter in this and subsequent steps).
 2. Create two folders in the path called ``content`` and ``models`` to match the defaults in the deforum Colab notebook.
 3. Download the Stable Diffusion model ckpt and save into the ``models`` folder (https://huggingface.co/CompVis/stable-diffusion-v-1-4-original) or copy the model from your Google Drive if you have already downloaded the model for using with cloud GPUs. 
 ## Create Conda Environment
@@ -13,7 +13,11 @@
 5. Activate the new environment using the command ``conda activate deforumlocal``
 6. Start a Jupyter sessions using the command ``jupyter notebook --NotebookApp.allow_origin='https://colab.research.google.com' --port=8889 --NotebookApp.port_retries=0``
 7. Close the browser tab that opens and copy the localhost address that displayes in Anaconda Powershell Ex. ``http://localhost:8889/?token=42c7da12d8acb14c512979d882414e569b363ceb9815974a``
-8. In the deforum Colab notebook, click on the connect menu and select ``Connect to a local runtime``
+
+![image](https://user-images.githubusercontent.com/95973743/192117810-c9595da0-0337-478b-afed-6702e36b1ea1.png)
+
+
+9. In the deforum Colab notebook, click on the connect menu and select ``Connect to a local runtime``
 
 ![image](https://user-images.githubusercontent.com/95973743/192116684-e81e6f1d-6bdd-4dca-9c34-797a943bd63a.png)
 
@@ -25,4 +29,4 @@
 
 ![image](https://user-images.githubusercontent.com/95973743/192117254-45583193-5422-4227-956a-5a2ec1b55672.png)
 
-11. Continue running cells like you would with a cloud session and start dreaming!
+11. Continue running all cells like you would with a cloud session and start dreaming!
