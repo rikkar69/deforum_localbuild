@@ -1,4 +1,4 @@
-# Easy Environment For Local Deforum Stable Diffusion
+# Easy Environment Setup For Local Deforum Stable Diffusion
 1. Download and install Anaconda (https://www.anaconda.com/)
 2. Download and install GIT (https://git-scm.com/download/win)
 ## Create Local folder structures
