@@ -1,10 +1,11 @@
-# Easy Environment Setup For Local Deforum Stable Diffusion
+# Easy Windows Environment Setup For Local Deforum Stable Diffusion
 1. Download and install Anaconda (https://www.anaconda.com/)
 2. Download and install GIT (https://git-scm.com/download/win)
+3. Open the official deforum Stable Diffusion notebook (https://colab.research.google.com/github/deforum/stable-diffusion/blob/main/Deforum_Stable_Diffusion.ipynb)
 ## Create Local folder structures
 1. Create this folder path in a drive ``E:/Deforum/content`` (if not using ``E:`` drive, replace with the appropriate letter in this and subsequent steps).
 2. Create two folders in the path called ``content`` and ``models`` to match the defaults in the deforum Colab notebook.
-3. Download the Stable Diffusion model ckpt and save into the ``models`` folder (https://huggingface.co/CompVis/stable-diffusion-v-1-4-original) or copy the model from your Google Drive if you have already downloaded the model for using with cloud GPUs. 
+3. Download the Stable Diffusion model ckpt and save into the ``models`` folder (https://huggingface.co/CompVis/stable-diffusion-v-1-4-original) or copy the model from your Google Drive if you have already downloaded the model for use with cloud GPUs. 
 ## Create Conda Environment
 1. Download the ``environment.yml`` file and save into ``E:/Deforum``
 2. Open Start menu and open ``Anaconda Powershell Prompt``
@@ -14,8 +15,8 @@
 
 ## Connect and run the notebook
 
-1. Start a Jupyter sessions using the command ``jupyter notebook --NotebookApp.allow_origin='https://colab.research.google.com' --port=8889 --NotebookApp.port_retries=0``
-2. Close the browser tab that opens and copy the localhost address that displayes in Anaconda Powershell Ex. ``http://localhost:8889/?token=42c7da12d8acb14c512979d882414e569b363ceb9815974a``
+1. Start a Jupyter session using the command ``jupyter notebook --NotebookApp.allow_origin='https://colab.research.google.com' --port=8889 --NotebookApp.port_retries=0`` in Anaconda Powershell Prompt.
+2. Close the browser tab that opens and copy the localhost address that displays in Anaconda Powershell. Ex. ``http://localhost:8889/?token=42c7da12d8acb14c512979d882414e569b363ceb9815974a``
 
 ![image](https://user-images.githubusercontent.com/95973743/192117810-c9595da0-0337-478b-afed-6702e36b1ea1.png)
 
