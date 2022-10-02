@@ -4,7 +4,7 @@
 3. Open the official deforum Stable Diffusion notebook (https://colab.research.google.com/github/deforum/stable-diffusion/blob/main/Deforum_Stable_Diffusion.ipynb)
 ## Create Local folder structures
 1. Create this folder path in a drive ``E:/Deforum/content`` (if not using ``E:`` drive, replace with the appropriate letter in this and subsequent steps).
-2. Create two folders in the path called ``content`` and ``models`` to match the defaults in the deforum Colab notebook.
+2. Create two sub folders in the path called ``content`` and ``models`` to match the defaults in the deforum Colab notebook, ending up with ``E:/Deforum/content/output`` and ``E:/Deforum/content/models``.
 3. Download the Stable Diffusion model ckpt and save into the ``models`` folder (https://huggingface.co/CompVis/stable-diffusion-v-1-4-original) or copy the model from your Google Drive if you have already downloaded the model for use with cloud GPUs. 
 ## Create Conda Environment
 1. Download the ``environment.yml`` file and save into ``E:/Deforum``
