@@ -1,7 +1,6 @@
 # Easy Windows Environment Setup For Local Deforum Stable Diffusion
 1. Download and install Anaconda (https://www.anaconda.com/)
-2. Download and install GIT (https://git-scm.com/download/win)
-3. Open the official deforum Stable Diffusion notebook (https://colab.research.google.com/github/deforum/stable-diffusion/blob/main/Deforum_Stable_Diffusion.ipynb)
+2. Open the official deforum Stable Diffusion notebook (https://colab.research.google.com/github/deforum/stable-diffusion/blob/main/Deforum_Stable_Diffusion.ipynb)
 ## Create Local folder structures
 1. Create this folder path in a drive ``E:/Deforum/content`` (if not using ``E:`` drive, replace with the appropriate letter in this and subsequent steps).
 2. Create two sub folders in the path called ``output`` and ``models`` to match the defaults in the deforum Colab notebook, ending up with ``E:/Deforum/content/output`` and ``E:/Deforum/content/models``.
