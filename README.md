@@ -1,6 +1,6 @@
 # Easy Windows Environment Setup For Local Deforum Stable Diffusion
 
-##Update!
+## Update!
 Since the local branch of deforum has been developed, please follow these instructions/branch: https://github.com/deforum/stable-diffusion/tree/local
 
 Video tutorial: https://www.youtube.com/watch?v=xzeENkbpX_w
