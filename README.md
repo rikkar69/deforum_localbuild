@@ -1,4 +1,10 @@
 # Easy Windows Environment Setup For Local Deforum Stable Diffusion
+
+##Update!
+Since the local branch of deforum has been developed, please follow these instructions/branch: https://github.com/deforum/stable-diffusion/tree/local
+
+Video tutorial: https://www.youtube.com/watch?v=xzeENkbpX_w
+
 1. Download and install Anaconda (https://www.anaconda.com/)
 2. Open the official deforum Stable Diffusion notebook (https://colab.research.google.com/github/deforum/stable-diffusion/blob/main/Deforum_Stable_Diffusion.ipynb)
 ## Create Local folder structures
